@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zackyard</title>
     
-    <meta name="description" content="営業時代に小店舗オーナーの悩みを聞いてきた。だからシンプルで、本当に役立つホームページ制作・予約システム・を提供します。初回相談無料。">
-    <meta name="keywords" content="ホームページ制作,予約システム,GAS自動化,小店舗,LINE連携">
+    <meta name="description" content="営業時代に小店舗オーナーの悩みを聞いてきた。だからシンプルで、本当に役立つホームページ制作・予約システム・自動化を提供します。初回相談無料。">
+    <meta name="keywords" content="ホームページ制作,予約システム,自動化,小店舗,LINE連携">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://mzacky-works.github.io/zackyard/">
     
     <!-- OGP -->
     <meta property="og:type" content="website">
     <meta property="og:title" content="Zackyard - 小店舗のWeb・自動化パートナー">
-    <meta property="og:description" content="営業時代に小店舗オーナーの悩みを聞いてきた。シンプルで本当に役立つホームページ制作・予約システム・GAS自動化を提供します。">
+    <meta property="og:description" content="営業時代に小店舗オーナーの悩みを聞いてきた。シンプルで本当に役立つホームページ制作・予約システム・自動化を提供します。">
     <meta property="og:url" content="https://mzacky-works.github.io/zackyard/">
     <meta property="og:image" content="https://mzacky-works.github.io/zackyard/og-image.png">
     <meta property="og:site_name" content="Zackyard">
@@ -21,7 +21,7 @@
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Zackyard - 小店舗のWeb・自動化パートナー">
-    <meta name="twitter:description" content="営業時代に小店舗オーナーの悩みを聞いてきた。シンプルで本当に役立つホームページ制作・予約システム・自動化/効率化を提供します。">
+    <meta name="twitter:description" content="営業時代に小店舗オーナーの悩みを聞いてきた。シンプルで本当に役立つホームページ制作・予約システム・自動化を提供します。">
     <meta name="twitter:image" content="https://mzacky-works.github.io/zackyard/og-image.png">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,7 +29,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
     
     <!-- 外部CSS -->
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="css/style.css">
     
     <!-- 構造化マークアップ -->
     <script type="application/ld+json">
@@ -37,7 +37,7 @@
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
       "name": "Zackyard",
-      "description": "小店舗のWeb・自動化パートナー。ホームページ制作、予約システム、業務の効率化を提供。",
+      "description": "小店舗のWeb・自動化パートナー。ホームページ制作、予約システム、自動化を提供。",
       "url": "https://mzacky-works.github.io/zackyard/",
       "telephone": "",
       "email": "mzacky.works@gmail.com",
@@ -52,7 +52,7 @@
       "knowsAbout": [
         "Web制作",
         "予約システム",
-        "",
+        "自動化",
         "Google Sheets",
         "LINE API"
       ]
@@ -95,14 +95,15 @@
         <a href="#skills">できること</a>
         <a href="#works">実績</a>
         <a href="#services">サービス内容</a>
-        <a href="mailto:mzacky.works@gmail.com">お問い合わせ</a>
+        <a href="#contact">お問い合わせ</a>
+        <a href="mailto:mzacky.works@gmail.com">メール</a>
     </div>
 
     <header>
         <div class="header-content">
             <h1>Zackyard</h1>
             <p>小店舗のWeb・自動化パートナー</p>
-            <p class="sub">ホームページ制作 × 予約システム × 自動化/効率化</p>
+            <p class="sub">ホームページ制作 × 予約システム × 自動化</p>
         </div>
     </header>
 
@@ -131,7 +132,8 @@
                 </p>
 
                 <p style="margin-top: 20px; padding-top: 20px; border-top: 1px solid #ddd;">
-                    <span class="highlight">小さな悩みだけの解決でもOK</span>です。<br>「LINEボットだけ作る手伝い」<br>「予約管理だけ自動化したい」<br>「営業データの見える化だけほしい」——そういった<span class="highlight">小さな一歩</span>から始められます。<br><br>
+                    <span class="highlight">小さな悩みだけの解決でもOK</span>です。「LINEボットだけ作る手伝い」「予約管理だけ自動化したい」「営業データの見える化だけほしい」——そういった<span class="highlight">小さな一歩</span>から始められます。<br><br>
+                    <a href="#contact" style="color: #3498db; font-weight: 600; text-decoration: none;">→ お問い合わせを見る</a>
                 </p>
             </div>
         </section>
@@ -184,7 +186,7 @@
                 <div class="tech-tags">
                     <span class="tech-tag">HTML/CSS</span>
                     <span class="tech-tag">LINE API</span>
-                    <span class="tech-tag"></span>
+                    <span class="tech-tag">GAS</span>
                     <span class="tech-tag">Google Sheets</span>
                 </div>
             </div>
@@ -254,18 +256,42 @@
                 <li>
                     <span class="service-number">3</span>
                     <div class="service-text">
-                        <h3>Google自動化コンサルティング</h3>
+                        <h3>自動化コンサルティング</h3>
                         <p>Sheets・GAS・Formなど、Google系の連携で日々の業務を効率化。難しい事業用語は使わず、わかりやすく説明します。</p>
                     </div>
                 </li>
             </ul>
         </section>
-        
+
+        <!-- ===== お問い合わせ ===== -->
+        <section id="contact">
+            <h2>お問い合わせ</h2>
+            <p style="text-align: center; margin-bottom: 30px; color: #666;">
+                ご質問やご相談があればお気軽にご連絡ください。<br>
+                初回相談は無料です。
+            </p>
+            <form action="https://formspree.io/f/xqevnelo" method="POST" style="max-width: 500px; margin: 0 auto;">
+                <div style="margin-bottom: 20px;">
+                    <input type="text" name="name" placeholder="お名前" required style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 4px; font-family: 'Noto Sans JP', sans-serif; font-size: 0.95rem;">
+                </div>
+                <div style="margin-bottom: 20px;">
+                    <input type="email" name="email" placeholder="メールアドレス" required style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 4px; font-family: 'Noto Sans JP', sans-serif; font-size: 0.95rem;">
+                </div>
+                <div style="margin-bottom: 20px;">
+                    <input type="text" name="service" placeholder="ご相談内容（例：ホームページ制作、予約管理、自動化コンサル）" style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 4px; font-family: 'Noto Sans JP', sans-serif; font-size: 0.95rem;">
+                </div>
+                <div style="margin-bottom: 20px;">
+                    <textarea name="message" placeholder="ご質問・ご相談内容" rows="6" required style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 4px; font-family: 'Noto Sans JP', sans-serif; font-size: 0.95rem;"></textarea>
+                </div>
+                <button type="submit" style="background: #3498db; color: white; padding: 14px 40px; border-radius: 4px; font-weight: 600; border: none; cursor: pointer; width: 100%; font-size: 1rem; transition: background 0.3s;">送信</button>
+            </form>
+        </section>
+
         <!-- ===== CTA ===== -->
         <div class="cta-box">
             <h2>まずは相談してみませんか？</h2>
             <p>あなたのお店に本当に必要なものが何かを一緒に考えます。<br>初回相談は無料です。</p>
-            <a href="mailto:mzacky.works@gmail.com" class="cta-button">無料相談を申し込む</a>
+            <a href="#contact" class="cta-button">お問い合わせフォームへ</a>
         </div>
 
     </main>
