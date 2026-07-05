@@ -133,7 +133,8 @@ header {
     font-size: 1.1rem;
     font-weight: 400;
     margin-bottom: 8px;
-    opacity: 0.95;
+    opacity: 1;
+    color: #f0f0f0;
 }
 
 .header-content .sub {
@@ -147,6 +148,7 @@ main {
     max-width: 700px;
     margin: 0 auto;
     padding: 0 20px;
+    color: #f0f0f0;
 }
 
 section {
